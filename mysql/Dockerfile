@@ -1,4 +1,4 @@
 ARG MYSQL_VERSION
 
 # https://hub.docker.com/_/mysql/
-FROM mysql:${MYSQL_VERSION}
+FROM mariadb:${MYSQL_VERSION}
